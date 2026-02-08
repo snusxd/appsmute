@@ -6,17 +6,50 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A30000000000000000000001 /* appsmuteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* appsmuteApp.swift */; };
+		A30000000000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* AppDelegate.swift */; };
+		A30000000000000000000003 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* AppState.swift */; };
+		A30000000000000000000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* ContentView.swift */; };
+		A30000000000000000000005 /* HotKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* HotKeyManager.swift */; };
+		A30000000000000000000006 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* LanguageManager.swift */; };
+		A30000000000000000000007 /* LanguagePrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* LanguagePrefs.swift */; };
+		A30000000000000000000008 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* Localization.swift */; };
+		A30000000000000000000009 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* MainWindowController.swift */; };
+		A3000000000000000000000A /* ProcessTapMuteEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* ProcessTapMuteEngine.swift */; };
+		A3000000000000000000000B /* Shortcut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* Shortcut.swift */; };
+		A3000000000000000000000C /* ShortcutFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* ShortcutFormatting.swift */; };
+		A3000000000000000000000D /* ShortcutRecorderWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* ShortcutRecorderWindowController.swift */; };
+		A3000000000000000000000E /* ShortcutStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* ShortcutStore.swift */; };
+		A3000000000000000000000F /* SoundMuteAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* SoundMuteAssets.swift */; };
+		A30000000000000000000010 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* StatusBarController.swift */; };
+		A30000000000000000000020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* Assets.xcassets */; };
+		A30000000000000000000021 /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* en.json */; };
+		A30000000000000000000022 /* ru.json in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* ru.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EAB3FA2C2F38CD9B0035BAD7 /* appsmute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appsmute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000001 /* appsmuteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appsmuteApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* HotKeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotKeyManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* LanguagePrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePrefs.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* ProcessTapMuteEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessTapMuteEngine.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* Shortcut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcut.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* ShortcutFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutFormatting.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* ShortcutRecorderWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutRecorderWindowController.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* ShortcutStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutStore.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* SoundMuteAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMuteAssets.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000012 /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
+		A20000000000000000000013 /* ru.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ru.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EAB3FA2E2F38CD9B0035BAD7 /* appsmute */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = appsmute;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EAB3FA292F38CD9B0035BAD7 /* Frameworks */ = {
@@ -32,9 +65,51 @@
 		EAB3FA232F38CD9B0035BAD7 = {
 			isa = PBXGroup;
 			children = (
-				EAB3FA2E2F38CD9B0035BAD7 /* appsmute */,
 				EAB3FA2D2F38CD9B0035BAD7 /* Products */,
+				A10000000000000000000001 /* src */,
+				A10000000000000000000002 /* assets */,
 			);
+			sourceTree = "<group>";
+		};
+		A10000000000000000000001 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* appsmuteApp.swift */,
+				A20000000000000000000002 /* AppDelegate.swift */,
+				A20000000000000000000003 /* AppState.swift */,
+				A20000000000000000000004 /* ContentView.swift */,
+				A20000000000000000000005 /* HotKeyManager.swift */,
+				A20000000000000000000006 /* LanguageManager.swift */,
+				A20000000000000000000007 /* LanguagePrefs.swift */,
+				A20000000000000000000008 /* Localization.swift */,
+				A20000000000000000000009 /* MainWindowController.swift */,
+				A2000000000000000000000A /* ProcessTapMuteEngine.swift */,
+				A2000000000000000000000B /* Shortcut.swift */,
+				A2000000000000000000000C /* ShortcutFormatting.swift */,
+				A2000000000000000000000D /* ShortcutRecorderWindowController.swift */,
+				A2000000000000000000000E /* ShortcutStore.swift */,
+				A2000000000000000000000F /* SoundMuteAssets.swift */,
+				A20000000000000000000010 /* StatusBarController.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000002 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000011 /* Assets.xcassets */,
+				A10000000000000000000003 /* langs */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		A10000000000000000000003 /* langs */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000012 /* en.json */,
+				A20000000000000000000013 /* ru.json */,
+			);
+			path = langs;
 			sourceTree = "<group>";
 		};
 		EAB3FA2D2F38CD9B0035BAD7 /* Products */ = {
@@ -59,9 +134,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EAB3FA2E2F38CD9B0035BAD7 /* appsmute */,
 			);
 			name = appsmute;
 			packageProductDependencies = (
@@ -109,6 +181,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30000000000000000000020 /* Assets.xcassets in Resources */,
+				A30000000000000000000021 /* en.json in Resources */,
+				A30000000000000000000022 /* ru.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +194,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A30000000000000000000004 /* ContentView.swift in Sources */,
+				A30000000000000000000002 /* AppDelegate.swift in Sources */,
+				A30000000000000000000003 /* AppState.swift in Sources */,
+				A30000000000000000000005 /* HotKeyManager.swift in Sources */,
+				A30000000000000000000006 /* LanguageManager.swift in Sources */,
+				A30000000000000000000007 /* LanguagePrefs.swift in Sources */,
+				A30000000000000000000008 /* Localization.swift in Sources */,
+				A30000000000000000000009 /* MainWindowController.swift in Sources */,
+				A3000000000000000000000A /* ProcessTapMuteEngine.swift in Sources */,
+				A3000000000000000000000B /* Shortcut.swift in Sources */,
+				A3000000000000000000000C /* ShortcutFormatting.swift in Sources */,
+				A3000000000000000000000D /* ShortcutRecorderWindowController.swift in Sources */,
+				A3000000000000000000000E /* ShortcutStore.swift in Sources */,
+				A3000000000000000000000F /* SoundMuteAssets.swift in Sources */,
+				A30000000000000000000010 /* StatusBarController.swift in Sources */,
+				A30000000000000000000001 /* appsmuteApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +269,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -235,7 +326,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -251,10 +342,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_USER_SELECTED_FILES = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAudioCaptureUsageDescription = "appsmute needs system audio access to mute only selected apps.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -263,7 +356,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snsxd.appsmute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
+				REGISTER_APP_GROUPS = NO;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
@@ -281,10 +374,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_PREVIEWS = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_USER_SELECTED_FILES = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAudioCaptureUsageDescription = "appsmute needs system audio access to mute only selected apps.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +388,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = snsxd.appsmute;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
+				REGISTER_APP_GROUPS = NO;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
